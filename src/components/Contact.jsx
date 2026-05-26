@@ -65,13 +65,13 @@ export default function Contact() {
 
           {/* Name */}
           <div className="flex flex-col gap-2">
-            <label className="text-sm text-gray-400 font-medium">
+            <label className="text-sm text-gray-200 font-medium">
               Your Name
             </label>
             <input
               type="text"
               name="name"
-              placeholder="Jane Doe"
+              placeholder="Diksha Bharti"
               value={form.name}
               onChange={handleChange}
               className="bg-[#181820] border border-gray-700 rounded-xl px-4 py-3 text-white text-sm outline-none transition focus:border-yellow-400"
@@ -80,13 +80,13 @@ export default function Contact() {
 
           {/* Email */}
           <div className="flex flex-col gap-2">
-            <label className="text-sm text-gray-400 font-medium">
+            <label className="text-sm text-gray-200 font-medium">
               Email Address
             </label>
             <input
               type="email"
               name="email"
-              placeholder="jane@example.com"
+              placeholder="email@example.com"
               value={form.email}
               onChange={handleChange}
               className="bg-[#181820] border border-gray-700 rounded-xl px-4 py-3 text-white text-sm outline-none transition focus:border-yellow-400"
@@ -95,7 +95,7 @@ export default function Contact() {
 
           {/* Message */}
           <div className="flex flex-col gap-2">
-            <label className="text-sm text-gray-400 font-medium">
+            <label className="text-sm text-gray-200 font-medium">
               Message
             </label>
             <textarea

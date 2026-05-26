@@ -1,16 +1,21 @@
+import { FaPython, FaJava, FaReact, FaNodeJs, FaGitAlt, FaDatabase, FaCss3Alt } from 'react-icons/fa'
+import { SiCplusplus, SiHtml5, SiJavascript, SiMongodb, SiMysql } from 'react-icons/si'
+import { TbApi, TbBrain } from 'react-icons/tb'
+
 const techs = [
-  { icon: '🐍', name: 'Python' },
-  { icon: '⚡', name: 'C++' },
-  { icon: '☕', name: 'Java' },
-  { icon: '🌐', name: 'HTML/CSS' },
-  { icon: '🟨', name: 'JavaScript' },
-  { icon: '⚛️', name: 'React' },
-  { icon: '🖥️', name: 'Node.js' },
-  { icon: '🗄️', name: 'MongoDB' },
-  { icon: '🛢️', name: 'SQL' },
-  { icon: '🐙', name: 'Git & GitHub' },
-  { icon: '🤖', name: 'AI/ML' },
-  { icon: '🔌', name: 'REST APIs' },
+  { icon: <FaPython />, name: 'Python' },
+  { icon: <SiCplusplus />, name: 'C++' },
+  { icon: <FaJava />, name: 'Java' },
+  { icon: <SiHtml5 />, name: 'HTML' },
+  { icon: <FaCss3Alt />, name: 'CSS' },
+  { icon: <SiJavascript />, name: 'JavaScript' },
+  { icon: <FaReact />, name: 'React' },
+  { icon: <FaNodeJs />, name: 'Node.js' },
+  { icon: <SiMongodb />, name: 'MongoDB' },
+  { icon: <SiMysql />, name: 'MySQL' },
+  { icon: <FaGitAlt />, name: 'Git & GitHub' },
+  { icon: <TbBrain />, name: 'AI/ML' },
+  { icon: <TbApi />, name: 'REST APIs' },
 ]
 
 export default function Skills() {
@@ -45,7 +50,7 @@ export default function Skills() {
           >
 
             {/* Icon */}
-            <div className="text-3xl mb-3">
+            <div className="text-3xl mb-3 text-yellow-400 flex justify-center">
               {icon}
             </div>
 
