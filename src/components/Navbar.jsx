@@ -29,8 +29,8 @@ export default function Navbar() {
       <nav className="fixed top-0 left-0 right-0 z-50 h-16 flex items-center justify-between px-6 md:px-12 bg-[#0a0a0f]/80 backdrop-blur-lg border-b border-gray-800">
 
         {/* Logo */}
-        <div className="text-yellow-500 font-extrabold text-xl tracking-tight">
-          Diksha.dev
+        <div className="w-12 h-12 rounded-full border-2 border-yellow-400 shadow-lg shadow-yellow-400/30 flex items-center justify-center text-yellow-500 font-bold text-xl tracking-tight">
+          DB
         </div>
 
         {/* Desktop Menu */}

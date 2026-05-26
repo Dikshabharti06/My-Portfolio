@@ -1,13 +1,5 @@
 import { useState } from 'react'
 
-const contactInfo = [
-  { icon: '🎓', label: 'University', value: 'GGV Bilaspur, BTech CSE' },
-  { icon: '📍', label: 'Location', value: 'Bilaspur, Chhattisgarh, India' },
-  { icon: '💼', label: 'Status', value: 'Open to Internships & Collabs' },
-  { icon: '🐙', label: 'GitHub', value: 'github.com/dikshabharti06' },
-  { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/diksha-bharti-06sep05' },
-]
-
 export default function Contact() {
   const [form, setForm] = useState({
     name: '',
@@ -26,7 +18,6 @@ export default function Contact() {
 
   const handleSubmit = () => {
     setSubmitted(true)
-
     setTimeout(() => {
       setSubmitted(false)
     }, 3000)
@@ -55,7 +46,21 @@ export default function Contact() {
       {/* Main Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
-        {/* Contact Form */}
+        {/* Left — Image Section */}
+        <div className="flex flex-col gap-5">
+          <div className="relative group w-full rounded-2xl overflow-hidden border border-gray-800 shadow-xl shadow-yellow-400/5">
+
+            {/* Photo */}
+            <img
+              src="/contact.avif"
+              alt="Get in touch"
+              className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+            />
+
+        </div>
+        </div>
+
+        {/* Right — Contact Form */}
         <div className="flex flex-col gap-5">
 
           {/* Name */}
@@ -63,7 +68,6 @@ export default function Contact() {
             <label className="text-sm text-gray-400 font-medium">
               Your Name
             </label>
-
             <input
               type="text"
               name="name"
@@ -79,7 +83,6 @@ export default function Contact() {
             <label className="text-sm text-gray-400 font-medium">
               Email Address
             </label>
-
             <input
               type="email"
               name="email"
@@ -95,7 +98,6 @@ export default function Contact() {
             <label className="text-sm text-gray-400 font-medium">
               Message
             </label>
-
             <textarea
               name="message"
               rows={5}
@@ -117,36 +119,6 @@ export default function Contact() {
           >
             {submitted ? '✓ Message Sent!' : 'Send Message →'}
           </button>
-
-        </div>
-
-        {/* Contact Info */}
-        <div className="flex flex-col gap-5">
-
-          {contactInfo.map(({ icon, label, value }) => (
-            <div
-              key={label}
-              className="flex items-center gap-4 bg-[#181820] border border-gray-800 rounded-2xl px-5 py-4 hover:border-yellow-400 transition"
-            >
-
-              {/* Icon */}
-              <div className="w-10 h-10 rounded-xl bg-yellow-400/10 flex items-center justify-center text-lg shrink-0">
-                {icon}
-              </div>
-
-              {/* Text */}
-              <div>
-                <div className="text-xs text-gray-400 mb-1">
-                  {label}
-                </div>
-
-                <div className="text-sm text-white font-medium">
-                  {value}
-                </div>
-              </div>
-
-            </div>
-          ))}
 
         </div>
 

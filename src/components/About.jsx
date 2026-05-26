@@ -11,6 +11,7 @@ export default function About() {
       id="about"
       className="bg-[#111118] px-6 md:px-16 py-16"
     >
+
       {/* Section Label */}
       <div className="text-sm font-medium tracking-[0.14em] text-yellow-400 uppercase mb-2">
         Who I Am
@@ -29,7 +30,7 @@ export default function About() {
       {/* Main Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
-        {/* Left Content */}
+        {/* LEFT CONTENT */}
         <div className="space-y-5">
 
           <p className="text-gray-300 text-[1.02rem] leading-8 font-light">
@@ -64,8 +65,8 @@ export default function About() {
             , grinding{' '}
             <strong className="text-white font-medium">
               DSA for placements
-            </strong>
-            , and experimenting with{' '}
+            </strong>{' '}
+            and experimenting with{' '}
             <strong className="text-white font-medium">
               AI-powered applications
             </strong>.
@@ -73,8 +74,10 @@ export default function About() {
 
         </div>
 
-        {/* Right Card */}
-        <div>
+        {/* RIGHT SIDE */}
+        <div className="flex flex-col gap-6">
+
+          {/* Learning Card */}
           <div className="bg-[#181820] border border-gray-800 rounded-2xl p-6 shadow-lg">
 
             <h4 className="text-lg font-bold text-yellow-400 mb-5">
@@ -99,9 +102,39 @@ export default function About() {
             </div>
 
           </div>
+
+          {/* University Card */}
+          <div className="bg-[#181820] border border-gray-800 rounded-2xl p-6 shadow-lg">
+
+            {/* Header */}
+            <div className="flex items-center justify-between mb-5">
+
+              <h4 className="text-lg font-bold text-yellow-400">
+                🎓 Education
+              </h4>
+
+              <span className="text-sm font-semibold text-green-400 bg-green-400/10 border border-green-400/20 rounded-full px-3 py-1">
+                CGPA: 8.2
+              </span>
+
+            </div>
+
+            {/* Paragraph */}
+            <p className="text-gray-300 text-sm leading-7 font-light"> 
+              Pursuing B.Tech in Computer Science Engineering (2023–2027)
+              from Guru Ghasidas Vishwavidyalaya, Bilaspur.</p>
+              <p className="text-gray-300 text-sm leading-7 font-light">
+              Coursework
+              includes Data Structures & Algorithms, DBMS, Operating Systems,
+              Computer Networks, and Software Engineering.
+            </p>
+
+          </div>
+
         </div>
 
       </div>
+
     </section>
   )
 }
