@@ -1,8 +1,8 @@
 const learningItems = [
-  'App Development (React Native / Flutter)',
-  'Data Structures & Algorithms for placements',
-  'AI-powered applications & integrations',
-  'Backend API design & architecture',
+  'Frontend Development: React.js, JavaScript, HTML, Tailwind CSS',
+  'Backend Development: Python, FastAPI, REST APIs',
+  'Database Management: SQL, PostgreSQL',
+  'AI & Generative AI',
 ]
 
 export default function About() {
@@ -29,7 +29,7 @@ export default function About() {
 
     {/* Subtitle */}
     <p className="text-gray-400 text-base max-w-2xl mb-12 font-light">
-      Turning ideas into real, working software — one commit at a time.
+      Turning ideas into real, working software- one commit at a time.
     </p>
 
     {/* Paragraphs */}
@@ -53,12 +53,12 @@ export default function About() {
         </strong>{' '}
         and{' '}
         <strong className="text-white font-medium">
-          Python Enthusiast
+          Gen AI Enthusiast
         </strong>.
       </p>
 
       <p className="text-gray-300 text-[1.02rem] leading-8 font-light">
-        Currently leveling up in App Development, DSA, and AI-powered applications.
+        Currently leveling up in DSA, Full stack and AI-powered applications.
       </p>
 
     </div>
@@ -69,7 +69,7 @@ export default function About() {
   <div className="flex flex-col gap-6">
     {/* Learning Card */} 
     <div className="bg-[#181820] border border-gray-800 rounded-2xl p-6 shadow-lg flex-1"> 
-      <h4 className="text-lg font-bold text-yellow-400 mb-5"> 🚀 Currently Learning </h4> 
+      <h4 className="text-lg font-bold text-yellow-400 mb-5"> 🚀 Currently Focusing </h4> 
       <div className="flex flex-col gap-4"> 
       {learningItems.map((item) => ( 
         <div key={item} className="flex items-center gap-3 text-gray-300 text-sm font-light" > 

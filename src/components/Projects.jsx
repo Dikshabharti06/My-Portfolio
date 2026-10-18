@@ -1,15 +1,5 @@
 const projects = [
   {
-    icon: '🍔',
-    badge: 'Live',
-    badgeType: 'live',
-    title: 'Food Fusion',
-    desc:
-      'A full-stack food ordering web app where users browse menus, place orders, and manage food delivery end-to-end.',
-    tags: ['HTML/CSS', 'JavaScript', 'Backend', 'Database'],
-  },
-
-  {
     icon: '🧠',
     badge: 'Live',
     badgeType: 'live',
@@ -19,23 +9,13 @@ const projects = [
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
   },
 
-  {
-    icon: '🦥',
-    badge: 'AI Powered',
-    badgeType: 'ai',
-    title: 'AI Sloth Generator',
-    desc:
-      'An AI-powered creative tool that generates unique sloth personas, images, and themed content using AI integrations.',
-    tags: ['Python', 'AI/ML', 'FastAPI', 'API'],
-  },
-
-  {
-    icon: '🔌',
+{
+    icon: '🤖',
     badge: 'In Progress',
     badgeType: 'wip',
-    title: 'Backend API Projects',
+    title: 'Generative AI Projects',
     desc:
-      'A collection of RESTful API projects exploring authentication, scalable backend architecture, and database management.',
+      'A collection of AI-powered applications exploring LLM integrations, prompt engineering, Retrieval-Augmented Generation (RAG), and intelligent solutions using backend APIs.',
     tags: ['Node.js', 'Python', 'REST API', 'MongoDB'],
   },
 
@@ -46,7 +26,7 @@ const projects = [
     title: 'DSA Practice Repo',
     desc:
       'A structured repository of DSA solutions in C++, Java, and Python built for interview and placement preparation.',
-    tags: ['C++', 'Java', 'Python', 'GitHub'],
+    tags: ['C++', 'Python', 'GitHub'],
   },
 ]
 

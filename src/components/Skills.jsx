@@ -1,17 +1,14 @@
-import { FaPython, FaJava, FaReact, FaNodeJs, FaGitAlt, FaDatabase, FaCss3Alt } from 'react-icons/fa'
-import { SiCplusplus, SiHtml5, SiJavascript, SiMongodb, SiMysql } from 'react-icons/si'
+import { FaPython, FaReact, FaGitAlt, FaCss3Alt } from 'react-icons/fa'
+import { SiCplusplus, SiHtml5, SiJavascript, SiMysql } from 'react-icons/si'
 import { TbApi, TbBrain } from 'react-icons/tb'
 
 const techs = [
   { icon: <FaPython />, name: 'Python' },
   { icon: <SiCplusplus />, name: 'C++' },
-  { icon: <FaJava />, name: 'Java' },
   { icon: <SiHtml5 />, name: 'HTML' },
   { icon: <FaCss3Alt />, name: 'CSS' },
   { icon: <SiJavascript />, name: 'JavaScript' },
   { icon: <FaReact />, name: 'React' },
-  { icon: <FaNodeJs />, name: 'Node.js' },
-  { icon: <SiMongodb />, name: 'MongoDB' },
   { icon: <SiMysql />, name: 'MySQL' },
   { icon: <FaGitAlt />, name: 'Git & GitHub' },
   { icon: <TbBrain />, name: 'AI/ML' },
