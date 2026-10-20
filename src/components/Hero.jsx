@@ -50,7 +50,7 @@ export default function Hero() {
           {/* Bio */}
           <p className="text-lg text-gray-300 max-w-2xl mb-10 leading-8 font-light mx-auto md:mx-0">
             BTech CSE student at GGV Bilaspur, building full-stack web apps,
-            exploring AI-powered applications, and sharpening DSA for placements.
+            exploring AI-powered applications and sharpening DSA for placements.
           </p>
 
           {/* Buttons */}

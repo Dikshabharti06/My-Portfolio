@@ -94,7 +94,7 @@ export default function About() {
           <p className="text-gray-300 text-sm leading-7 font-light"> 
             Pursuing B.Tech in Computer Science Engineering (2023–2027) from Guru Ghasidas Vishwavidyalaya, Bilaspur. </p> 
             <p className="text-gray-300 text-sm leading-7 font-light mt-2"> 
-              Coursework includes Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, and Software Engineering. </p> 
+              Coursework includes Data Structures & Algorithms, DBMS, OOPs, Operating Systems, Computer Networks and System Design. </p> 
               </div>          
   </div>
 
